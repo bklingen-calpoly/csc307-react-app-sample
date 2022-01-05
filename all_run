@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd react-frontend
+npm start &
+
+cd ..
+
+cd expressjs-backend
+
+export DEBUG='express:router'
+npm run dev
